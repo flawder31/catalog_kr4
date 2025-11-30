@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">product-catalog</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">1.0.0</PackageJsonVersion>
+    <PackageJsonDescription Condition="$(PackageJsonDescription) == ''">Каталог товаров с фильтрацией по категориям</PackageJsonDescription>
+    <PackageJsonMain Condition="$(PackageJsonMain) == ''">src/index.js</PackageJsonMain>
+    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">react-scripts start</PackageJsonScriptsStart>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">react-scripts build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsTest Condition="$(PackageJsonScriptsTest) == ''">react-scripts test</PackageJsonScriptsTest>
+    <PackageJsonScriptsEject Condition="$(PackageJsonScriptsEject) == ''">react-scripts eject</PackageJsonScriptsEject>
+    <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">react-scripts start</PackageJsonScriptsDev>
+    <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^18.2.0</PackageJsonDependenciesReact>
+    <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^18.2.0</PackageJsonDependenciesReactDom>
+    <PackageJsonDependenciesReactScripts Condition="$(PackageJsonDependenciesReactScripts) == ''">5.0.1</PackageJsonDependenciesReactScripts>
+    <PackageJsonDependenciesWebVitals Condition="$(PackageJsonDependenciesWebVitals) == ''">^3.5.0</PackageJsonDependenciesWebVitals>
+    <PackageJsonBrowserslistProduction Condition="$(PackageJsonBrowserslistProduction) == ''">[
+  "\u003E0.2%",
+  "not dead",
+  "not op_mini all"
+]</PackageJsonBrowserslistProduction>
+    <PackageJsonBrowserslistDevelopment Condition="$(PackageJsonBrowserslistDevelopment) == ''">[
+  "last 1 chrome version",
+  "last 1 firefox version",
+  "last 1 safari version"
+]</PackageJsonBrowserslistDevelopment>
+  </PropertyGroup>
+</Project>
