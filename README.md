@@ -4,7 +4,7 @@ React приложение с фильтрацией товаров по кат�
 
 📸 Демонстрация
 ![Скриншот 1](/images/Screenshot_1.png)
-https://./docs/images/filter-demo.png
+![Скриншот 2](/images/Screenshot_2.png)
 
 🛠️ Технологии
 React, JavaScript, CSS
